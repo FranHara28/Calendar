@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calendar</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <div id="month">
+        <button id="go-back">&lt;</button>
+        <h2>January 2024</h2>
+        <button id="go-forward">&gt;</button>
+    </div>
+
+    <table>
+        <thead>
+            <tr id="days">
+                <th>Sun</th>
+                <th>Mon</th>
+                <th>Tue</th>
+                <th>Wed</th>
+                <th>Thu</th>
+                <th>Fri</th>
+                <th>Sat</th>
+            </tr>
+        </thead>
+        <tbody id="calendar-body">
+            <tr>
+                <th></th>
+                <th>1</th>
+                <th>2</th>
+                <th>3</th>
+                <th>4</th>
+                <th>5</th>
+                <th>6</th>
+            </tr>
+            <tr>
+                <th>7</th>
+                <th>8</th>
+                <th>9</th>
+                <th>10</th>
+                <th>11</th>
+                <th>12</th>
+                <th>13</th>
+            </tr>
+            <tr>
+                <th>14</th>
+                <th>15</th>
+                <th>16</th>
+                <th>17</th>
+                <th>18</th>
+                <th>19</th>
+                <th>20</th>
+            </tr>
+            <tr>
+                <th>21</th>
+                <th>22</th>
+                <th>23</th>
+                <th>24</th>
+                <th>25</th>
+                <th>26</th>
+                <th>27</th>
+            </tr>
+            <tr>
+                <th>28</th>
+                <th>29</th>
+                <th>30</th>
+                <th>31</th>
+                <th></th>
+                <th></th>
+                <th></th>
+            </tr>
+        </tbody>
+    </table>
+
+    <div id="reservation-info">
+        <div id="reservation-start">
+            <h3>Starting date:</h3>
+            <input id="starting-date" type="text">
+        </div>
+        <div id="reservation-end">
+            <h3>Ending date:</h3>
+            <input id="ending-date" type="text">
+        </div>
+    </div>
+
+    <footer>
+        <button>Confirm</button>
+        <button>Clear</button>
+    </footer>
+
+</body>
+
+</html>

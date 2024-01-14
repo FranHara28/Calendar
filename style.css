@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+table {
+    width: 75%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    margin: auto;
+}
+
+th, td {
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 4px;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+#month {
+    width: 25%;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#month button, footer button {
+    border: 1px solid #dddddd;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#month button:hover, footer button:hover {
+    background-color: #1051c2;
+    color: whitesmoke;
+}
+
+#calendar-body tr th {
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#calendar-body tr th:not(:empty):hover {
+    background-color: #1051c2;
+    color: whitesmoke;
+}
+
+#reservation-info {
+    width: 20%;
+    margin: auto;
+}
+
+#reservation-info div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer {
+    width: 10%;
+    margin: auto;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
